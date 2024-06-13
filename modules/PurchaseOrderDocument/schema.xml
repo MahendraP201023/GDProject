@@ -1,0 +1,22 @@
+<?xml version='1.0'?>
+<schema>
+	<tables>
+		<table>
+			<name>vtiger_purchaseorderdocument</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_purchaseorderdocument` (
+  `purchaseorderdocumentid` int NOT NULL,
+  `pod_file` varchar(255) DEFAULT NULL,
+  `pod_description` text,
+  `pod_no` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`purchaseorderdocumentid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3]]></sql>
+		</table>
+		<table>
+			<name>vtiger_purchaseorderdocumentcf</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_purchaseorderdocumentcf` (
+  `purchaseorderdocumentid` int NOT NULL,
+  PRIMARY KEY (`purchaseorderdocumentid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3]]></sql>
+		</table>
+	</tables>
+</schema>

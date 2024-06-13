@@ -1,0 +1,25 @@
+[29-May-2024 11:52:17 UTC] PHP Warning:  include_once(/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/../../../include/Zend/Json.php): failed to open stream: No such file or directory in /home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/Response.php on line 10
+[29-May-2024 11:52:17 UTC] PHP Warning:  include_once(): Failed opening '/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/../../../include/Zend/Json.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/Response.php on line 10
+[29-May-2024 11:52:17 UTC] PHP Warning:  include_once(modules/Mobile/Mobile.php): failed to open stream: No such file or directory in /home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/Controller.php on line 11
+[29-May-2024 11:52:17 UTC] PHP Warning:  include_once(): Failed opening 'modules/Mobile/Mobile.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/Controller.php on line 11
+[29-May-2024 11:52:17 UTC] PHP Warning:  Declaration of Mobile_WS_QueryWithGrouping::processQueryResultRecord($record, $user) should be compatible with Mobile_WS_Query::processQueryResultRecord(&$record, $user) in /home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/QueryWithGrouping.php on line 18
+[29-May-2024 11:52:17 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function CRMEntity::get_dependents_list(), 3 passed in /home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/RelatedRecordsWithGrouping.php on line 42 and exactly 4 expected in /home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php:1983
+Stack trace:
+#0 /home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/RelatedRecordsWithGrouping.php(42): CRMEntity->get_dependents_list('1614', '45', '63')
+#1 /home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.v1.php(159): Mobile_WS_RelatedRecordsWithGrouping->process(Object(Mobile_API_Request))
+#2 /home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.php(62): Mobile_APIV1_Controller->process(Object(Mobile_API_Request))
+#3 {main}
+  thrown in /home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php on line 1983
+[30-May-2024 04:17:31 UTC] PHP Warning:  include_once(/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/../../../include/Zend/Json.php): failed to open stream: No such file or directory in /home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/Response.php on line 10
+[30-May-2024 04:17:31 UTC] PHP Warning:  include_once(): Failed opening '/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/../../../include/Zend/Json.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/Response.php on line 10
+[30-May-2024 04:17:31 UTC] PHP Warning:  include_once(modules/Mobile/Mobile.php): failed to open stream: No such file or directory in /home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/Controller.php on line 11
+[30-May-2024 04:17:31 UTC] PHP Warning:  include_once(): Failed opening 'modules/Mobile/Mobile.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/Controller.php on line 11
+[30-May-2024 04:17:31 UTC] PHP Warning:  Declaration of Mobile_WS_QueryWithGrouping::processQueryResultRecord($record, $user) should be compatible with Mobile_WS_Query::processQueryResultRecord(&$record, $user) in /home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/QueryWithGrouping.php on line 18
+[30-May-2024 04:17:31 UTC] PHP Fatal error:  Uncaught Error: Class 'Mobile' not found in /home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/Query.php:35
+Stack trace:
+#0 /home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/QueryWithGrouping.php(33): Mobile_WS_Query->process(Object(Mobile_API_Request))
+#1 /home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/RelatedRecordsWithGrouping.php(76): Mobile_WS_QueryWithGrouping->process(Object(Mobile_API_Request))
+#2 /home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.v1.php(159): Mobile_WS_RelatedRecordsWithGrouping->process(Object(Mobile_API_Request))
+#3 /home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.php(62): Mobile_APIV1_Controller->process(Object(Mobile_API_Request))
+#4 {main}
+  thrown in /home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/Query.php on line 35

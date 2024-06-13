@@ -1,0 +1,20 @@
+<?xml version='1.0'?>
+<schema>
+	<tables>
+		<table>
+			<name>vtiger_meetingnotes</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_meetingnotes` (
+    `meetingnotesid` int(11) NOT NULL DEFAULT '0',
+      `meeting_note` TEXT DEFAULT NULL,
+      PRIMARY KEY (`meetingnotesid`)
+  ) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+		<table>
+			<name>vtiger_meetingnotescf</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_meetingnotescf` (
+  `meetingnotesid` int(11) NOT NULL,
+  PRIMARY KEY (`meetingnotesid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8]]></sql>
+		</table>
+	</tables>
+</schema>
