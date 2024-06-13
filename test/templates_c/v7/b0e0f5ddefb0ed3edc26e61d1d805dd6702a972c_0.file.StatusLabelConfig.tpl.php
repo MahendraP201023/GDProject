@@ -1,0 +1,72 @@
+<?php
+/* Smarty version 3.1.39, created on 2024-04-09 05:43:34
+  from '/home2/bitechnosys/incca.crm-doctor.com/layouts/v7/modules/Settings/StatusLabel/StatusLabelConfig.tpl' */
+
+/* @var Smarty_Internal_Template $_smarty_tpl */
+if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
+  'version' => '3.1.39',
+  'unifunc' => 'content_6614d586e4c017_95838121',
+  'has_nocache_code' => false,
+  'file_dependency' => 
+  array (
+    'b0e0f5ddefb0ed3edc26e61d1d805dd6702a972c' => 
+    array (
+      0 => '/home2/bitechnosys/incca.crm-doctor.com/layouts/v7/modules/Settings/StatusLabel/StatusLabelConfig.tpl',
+      1 => 1712641387,
+      2 => 'file',
+    ),
+  ),
+  'includes' => 
+  array (
+  ),
+),false)) {
+function content_6614d586e4c017_95838121 (Smarty_Internal_Template $_smarty_tpl) {
+?><html><head><title></title><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><?php echo '<script'; ?>
+ src="https://code.jquery.com/jquery-3.6.4.min.js"><?php echo '</script'; ?>
+></head><style>#slodulename {margin-left: 20%;width: 40%;}#followupContainer {margin-top: 50px;}#saveButton{margin-top: 50px;margin-left: 45%;}.hidden-section {display: none;}</style><body><div class="container mt-5"><header><h3>Status Label</h3></header><hr><form class="form-horizontal recordEditView" id="editview" name="edit" method="post" action="index.php" enctype="multipart/form-data"><!-- ... your form content ... --><input type="hidden" name="module" value="StatusLabel"><input type="hidden" name="parent" value="Settings"><input type="hidden" name="view" value="StatusLabelConfig"><input type="hidden" name="mode" value="saveStatusLabel"><div class="form-group"><label for="inputType" class="col-sm-2 control-label">Modules name:</label><div class="col-sm-6"><select class="form-select form-select-lg select2" name="smodulename" id="smodulename"><option>Select Module</option><option value="opportunities">Opportunities</option><option value="leads">Leads</option><option value="project">Project</option></select></div><div class="followup" id="followupContainer"><div class="opportunities hidden-section"><div class="form-group"><label class="col-sm-2 control-label select2" for="input">Advance Payment</label><div class="col-sm-4 select2"><input class="form-control select2" type="text" name="advance_payment" id="advance_payment" value="<?php echo $_smarty_tpl->tpl_vars['ADVANCE_PAYMENT']->value;?>
+"></div></div><div class="form-group"><label class="col-sm-2 control-label select2" for="input">Quotes Ready</label><div class="col-sm-4 select2"><input class="form-control select2" type="text" name="quotes_ready" id="quotes_ready" value="<?php echo $_smarty_tpl->tpl_vars['QUOTES_READY']->value;?>
+"></div></div><div class="form-group"><label class="col-sm-2 control-label select2" for="input">Site Visit</label><div class="col-sm-4 select2"><input class="form-control select2" type="text" name="site_visit" id="site_visit" value="<?php echo $_smarty_tpl->tpl_vars['SITE_VISIT']->value;?>
+"></div></div><div class="form-group"><label class="col-sm-2 control-label select2" for="input">2D design</label><div class="col-sm-4 select2"><input class="form-control select2" type="text" name="design_1" id="design_1" value="<?php echo $_smarty_tpl->tpl_vars['DESIGN_1']->value;?>
+"></div></div><div class="form-group"><label class="col-sm-2 control-label select2" for="input">3D design</label><div class="col-sm-4 select2"><input class="form-control select2" type="text" name="design_2" id="design_2" value="<?php echo $_smarty_tpl->tpl_vars['DESIGN_2']->value;?>
+"></div></div><br><br></div><div class="leads hidden-section"><div class="form-group"><label class="col-sm-2 control-label select2" for="input">Followup 1</label><div class="col-sm-4 select2"><input class="form-control select2" type="text" name="followup_1" id="followup_1" value="<?php echo $_smarty_tpl->tpl_vars['FOLLOWUP_1']->value;?>
+"></div></div><div class="form-group"><label class="col-sm-2 control-label select2" for="input">Followup 2</label><div class="col-sm-4 select2"><input class="form-control select2" type="text" name="followup_2" id="followup_2" value="<?php echo $_smarty_tpl->tpl_vars['FOLLOWUP_2']->value;?>
+"></div></div><div class="form-group"><label class="col-sm-2 control-label select2" for="input">Innca Visit</label><div class="col-sm-4 select2"><input class="form-control select2" type="text" name="innca_visit" id="innca_visit" value="<?php echo $_smarty_tpl->tpl_vars['INNCA_VISIT']->value;?>
+"></div></div><div class="form-group"><label class="col-sm-2 control-label select2" for="input">Followup 3</label><div class="col-sm-4 select2"><input class="form-control select2" type="text" name="followup_3" id="followup_3" value="<?php echo $_smarty_tpl->tpl_vars['FOLLOWUP_3']->value;?>
+"></div></div><br><br></div><div class="project hidden-section"><div class="form-group"><label class="col-sm-2 control-label select2" for="input">Discussion and payment received</label><div class="col-sm-4 select2"><input class="form-control select2" type="text" name="payment_received" id="payment_received" value="<?php echo $_smarty_tpl->tpl_vars['DISC_PAYMENT_RECEIVED']->value;?>
+"></div></div><div class="form-group"><label class="col-sm-2 control-label select2" for="input">Implementation</label><div class="col-sm-4 select2"><input class="form-control select2" type="text" name="implementation" id="implementation" value="<?php echo $_smarty_tpl->tpl_vars['IMPLEMENT']->value;?>
+"></div></div><div class="form-group"><label class="col-sm-2 control-label select2" for="input">Installation</label><div class="col-sm-4 select2"><input class="form-control select2" type="text" name="installation" id="installation" value="<?php echo $_smarty_tpl->tpl_vars['INSTALLATION']->value;?>
+"></div></div><div class="form-group"><label class="col-sm-2 control-label select2" for="input">Site Verification</label><div class="col-sm-4 select2"><input class="form-control select2" type="text" name="site_verification" id="site_verification" value="<?php echo $_smarty_tpl->tpl_vars['SITE_VERFICATION']->value;?>
+"></div></div><div class="form-group"><label class="col-sm-2 control-label select2" for="input" >Closure</label><div class="col-sm-4 select2"><input class="form-control select2" type="text" name="closure" id="closure" value="<?php echo $_smarty_tpl->tpl_vars['CLOSURE']->value;?>
+"></div></div></div></div></div><button type='submit' class="btn btn-success saveButton" id="saveButton" >Save</button></form></div></body><?php echo '<script'; ?>
+>
+  $(document).ready(function () {
+    function getURLParameter(name) {
+      var urlParams = new URLSearchParams(window.location.search);
+      return urlParams.get(name);
+    }
+
+    function showFieldsBasedOnModule(selectedModule) {
+      $(".opportunities, .leads, .project").addClass("hidden-section");
+      $("." + selectedModule).removeClass("hidden-section");
+    }
+
+    function updateURL(selectedModule) {
+      var url = "index.php?module=StatusLabel&parent=Settings&view=StatusLabelConfig&mode=statusLabelSetting&block=4&fieldid=41&selectedModule=" + selectedModule;
+      window.location.href = url;
+    }
+
+    $("#smodulename").change(function () {
+      var selectedModule = $(this).val().toLowerCase();
+      showFieldsBasedOnModule(selectedModule);
+      updateURL(selectedModule);
+    });
+
+    var initialModule = getURLParameter("selectedModule");
+    if (initialModule) {
+      showFieldsBasedOnModule(initialModule.toLowerCase());
+      $("#smodulename").val(initialModule);
+    }
+  });
+<?php echo '</script'; ?>
+></html><?php }
+}

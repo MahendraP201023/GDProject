@@ -1,0 +1,27 @@
+<?xml version='1.0'?>
+<schema>
+	<tables>
+		<table>
+			<name>vtiger_expense</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_expense` (
+  `expenseid` int NOT NULL,
+  `expence_employeename` varchar(100) DEFAULT NULL,
+  `expense_no` varchar(100) DEFAULT NULL,
+  `expense_details` varchar(100) DEFAULT NULL,
+  `expense_type` varchar(100) DEFAULT NULL,
+  `expence_reimbursementdate` varchar(100) DEFAULT NULL,
+  `expence_billstartdate` varchar(100) DEFAULT NULL,
+  `expence_billenddate` varchar(100) DEFAULT NULL,
+  `expence_amount` varchar(100) DEFAULT NULL,
+  PRIMARY KEY (`expenseid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3]]></sql>
+		</table>
+		<table>
+			<name>vtiger_expensecf</name>
+			<sql><![CDATA[CREATE TABLE `vtiger_expensecf` (
+  `expenseid` int NOT NULL,
+  PRIMARY KEY (`expenseid`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb3]]></sql>
+		</table>
+	</tables>
+</schema>

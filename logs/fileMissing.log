@@ -1,0 +1,965 @@
+Traced on 2024-01-17 05:58:10
+FileAccessForInclusion - 
+C:\xampp\htdocs\Innca\include\utils\CommonUtils.php::checkFileAccessForInclusion::388<br>
+C:\xampp\htdocs\Innca\includes\Loader.php::checkFileAccessForInclusion::65<br>
+C:\xampp\htdocs\Innca\includes\Loader.php::includeOnce::191<br>
+C:\xampp\htdocs\Innca\includes\main\WebUI.php::vimport::15<br>
+C:\xampp\htdocs\Innca\index.php::include_once::19<br>
+Traced on 2024-01-17 06:03:10
+FileAccessForInclusion - 
+C:\xampp\htdocs\Innca\include\utils\CommonUtils.php::checkFileAccessForInclusion::388<br>
+C:\xampp\htdocs\Innca\data\CRMEntity.php::checkFileAccessForInclusion::57<br>
+C:\xampp\htdocs\Innca\include\utils\UserInfoUtil.php::getInstance::2310<br>
+C:\xampp\htdocs\Innca\modules\Users\models\Privileges.php::getNonAdminAccessControlQuery::173<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\models\Module.php::getNonAdminAccessControlQuery::1560<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\models\Module.php::getNonAdminAccessControlQueryForRelation::1516<br>
+C:\xampp\htdocs\Innca\modules\Leads\models\Module.php::getRelationQuery::307<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\models\Relation.php::getRelationQuery::123<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\models\RelationListView.php::getQuery::440<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\models\RelationListView.php::getRelationQuery::515<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\actions\RelatedRecordsAjax.php::getRelatedEntriesCount::64<br>
+C:\xampp\htdocs\Innca\includes\runtime\Controller.php::getRelatedRecordsCount::64<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\actions\RelatedRecordsAjax.php::invokeExposedMethod::44<br>
+C:\xampp\htdocs\Innca\includes\main\WebUI.php::process::215<br>
+C:\xampp\htdocs\Innca\index.php::process::22<br>
+Traced on 2024-01-17 06:03:13
+FileAccessForInclusion - 
+C:\xampp\htdocs\Innca\include\utils\CommonUtils.php::checkFileAccessForInclusion::388<br>
+C:\xampp\htdocs\Innca\data\CRMEntity.php::checkFileAccessForInclusion::57<br>
+C:\xampp\htdocs\Innca\include\utils\UserInfoUtil.php::getInstance::2310<br>
+C:\xampp\htdocs\Innca\modules\Users\models\Privileges.php::getNonAdminAccessControlQuery::173<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\models\Module.php::getNonAdminAccessControlQuery::1560<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\models\Module.php::getNonAdminAccessControlQueryForRelation::1516<br>
+C:\xampp\htdocs\Innca\modules\Leads\models\Module.php::getRelationQuery::307<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\models\Relation.php::getRelationQuery::123<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\models\RelationListView.php::getQuery::440<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\models\RelationListView.php::getRelationQuery::273<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\views\RelatedList.php::getEntries::91<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\views\Detail.php::process::670<br>
+C:\xampp\htdocs\Innca\includes\runtime\Controller.php::showRelatedList::64<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\views\Detail.php::invokeExposedMethod::306<br>
+C:\xampp\htdocs\Innca\includes\main\WebUI.php::process::215<br>
+C:\xampp\htdocs\Innca\index.php::process::22<br>
+Traced on 2024-01-17 06:03:15
+FileAccessForInclusion - 
+C:\xampp\htdocs\Innca\include\utils\CommonUtils.php::checkFileAccessForInclusion::388<br>
+C:\xampp\htdocs\Innca\data\CRMEntity.php::checkFileAccessForInclusion::57<br>
+C:\xampp\htdocs\Innca\include\utils\UserInfoUtil.php::getInstance::2310<br>
+C:\xampp\htdocs\Innca\modules\Users\models\Privileges.php::getNonAdminAccessControlQuery::173<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\models\Module.php::getNonAdminAccessControlQuery::1560<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\models\Module.php::getNonAdminAccessControlQueryForRelation::1516<br>
+C:\xampp\htdocs\Innca\modules\Leads\models\Module.php::getRelationQuery::307<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\models\Relation.php::getRelationQuery::123<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\models\RelationListView.php::getQuery::440<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\models\RelationListView.php::getRelationQuery::273<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\views\RelatedList.php::getEntries::91<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\views\Detail.php::process::670<br>
+C:\xampp\htdocs\Innca\includes\runtime\Controller.php::showRelatedList::64<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\views\Detail.php::invokeExposedMethod::306<br>
+C:\xampp\htdocs\Innca\includes\main\WebUI.php::process::215<br>
+C:\xampp\htdocs\Innca\index.php::process::22<br>
+Traced on 2024-01-17 06:03:36
+FileAccessForInclusion - 
+C:\xampp\htdocs\Innca\include\utils\CommonUtils.php::checkFileAccessForInclusion::388<br>
+C:\xampp\htdocs\Innca\data\CRMEntity.php::checkFileAccessForInclusion::57<br>
+C:\xampp\htdocs\Innca\include\utils\UserInfoUtil.php::getInstance::2310<br>
+C:\xampp\htdocs\Innca\modules\Users\models\Privileges.php::getNonAdminAccessControlQuery::173<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\models\Module.php::getNonAdminAccessControlQuery::1560<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\models\Module.php::getNonAdminAccessControlQueryForRelation::1516<br>
+C:\xampp\htdocs\Innca\modules\Leads\models\Module.php::getRelationQuery::307<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\models\Relation.php::getRelationQuery::123<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\models\RelationListView.php::getQuery::440<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\models\RelationListView.php::getRelationQuery::273<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\views\RelatedList.php::getEntries::91<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\views\Detail.php::process::670<br>
+C:\xampp\htdocs\Innca\includes\runtime\Controller.php::showRelatedList::64<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\views\Detail.php::invokeExposedMethod::306<br>
+C:\xampp\htdocs\Innca\includes\main\WebUI.php::process::215<br>
+C:\xampp\htdocs\Innca\index.php::process::22<br>
+Traced on 2024-01-17 06:03:41
+FileAccessForInclusion - 
+C:\xampp\htdocs\Innca\include\utils\CommonUtils.php::checkFileAccessForInclusion::388<br>
+C:\xampp\htdocs\Innca\data\CRMEntity.php::checkFileAccessForInclusion::57<br>
+C:\xampp\htdocs\Innca\include\utils\UserInfoUtil.php::getInstance::2310<br>
+C:\xampp\htdocs\Innca\modules\Users\models\Privileges.php::getNonAdminAccessControlQuery::173<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\models\Module.php::getNonAdminAccessControlQuery::1560<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\models\Module.php::getNonAdminAccessControlQueryForRelation::1516<br>
+C:\xampp\htdocs\Innca\modules\Leads\models\Module.php::getRelationQuery::307<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\models\Relation.php::getRelationQuery::123<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\models\RelationListView.php::getQuery::440<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\models\RelationListView.php::getRelationQuery::273<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\views\RelatedList.php::getEntries::91<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\views\Detail.php::process::670<br>
+C:\xampp\htdocs\Innca\includes\runtime\Controller.php::showRelatedList::64<br>
+C:\xampp\htdocs\Innca\modules\Vtiger\views\Detail.php::invokeExposedMethod::306<br>
+C:\xampp\htdocs\Innca\includes\main\WebUI.php::process::215<br>
+C:\xampp\htdocs\Innca\index.php::process::22<br>
+Traced on 2024-01-17 08:51:31
+FileAccessForInclusion - 
+/home2/bitechnosys/incca.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/incca.crm-doctor.com/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/home2/bitechnosys/incca.crm-doctor.com/includes/Loader.php::includeOnce::191<br>
+/home2/bitechnosys/incca.crm-doctor.com/includes/main/WebUI.php::vimport::15<br>
+/home2/bitechnosys/incca.crm-doctor.com/index.php::include_once::19<br>
+Traced on 2024-03-19 11:05:08
+FileAccessForInclusion - 
+/home2/bitechnosys/incca.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/incca.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Vtiger/models/ListView.php::getInstanceById::306<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Users/models/ListView.php::getListViewEntries::102<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Users/views/List.php::getListViewEntries::122<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Settings/Vtiger/views/List.php::initializeListViewContents::23<br>
+/home2/bitechnosys/incca.crm-doctor.com/includes/main/WebUI.php::preProcess::76<br>
+/home2/bitechnosys/incca.crm-doctor.com/includes/main/WebUI.php::triggerPreProcess::214<br>
+/home2/bitechnosys/incca.crm-doctor.com/index.php::process::22<br>
+Traced on 2024-03-19 11:05:12
+FileAccessForInclusion - 
+/home2/bitechnosys/incca.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/incca.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Vtiger/models/ListView.php::getInstanceById::306<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Users/models/ListView.php::getListViewEntries::102<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Users/views/List.php::getListViewEntries::122<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Settings/Vtiger/views/List.php::initializeListViewContents::23<br>
+/home2/bitechnosys/incca.crm-doctor.com/includes/main/WebUI.php::preProcess::76<br>
+/home2/bitechnosys/incca.crm-doctor.com/includes/main/WebUI.php::triggerPreProcess::214<br>
+/home2/bitechnosys/incca.crm-doctor.com/index.php::process::22<br>
+Traced on 2024-03-19 11:05:38
+FileAccessForInclusion - 
+/home2/bitechnosys/incca.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/incca.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Vtiger/models/ListView.php::getInstanceById::306<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Users/models/ListView.php::getListViewEntries::102<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Users/views/List.php::getListViewEntries::122<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Settings/Vtiger/views/List.php::initializeListViewContents::23<br>
+/home2/bitechnosys/incca.crm-doctor.com/includes/main/WebUI.php::preProcess::76<br>
+/home2/bitechnosys/incca.crm-doctor.com/includes/main/WebUI.php::triggerPreProcess::214<br>
+/home2/bitechnosys/incca.crm-doctor.com/index.php::process::22<br>
+Traced on 2024-03-19 11:05:40
+FileAccessForInclusion - 
+/home2/bitechnosys/incca.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/incca.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Vtiger/models/ListView.php::getInstanceById::306<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Users/models/ListView.php::getListViewEntries::102<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Users/views/List.php::getListViewEntries::122<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Settings/Vtiger/views/List.php::initializeListViewContents::23<br>
+/home2/bitechnosys/incca.crm-doctor.com/includes/main/WebUI.php::preProcess::76<br>
+/home2/bitechnosys/incca.crm-doctor.com/includes/main/WebUI.php::triggerPreProcess::214<br>
+/home2/bitechnosys/incca.crm-doctor.com/index.php::process::22<br>
+Traced on 2024-03-19 11:06:01
+FileAccessForInclusion - 
+/home2/bitechnosys/incca.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/incca.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Vtiger/models/ListView.php::getInstanceById::306<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Users/models/ListView.php::getListViewEntries::102<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Users/views/List.php::getListViewEntries::122<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Settings/Vtiger/views/List.php::initializeListViewContents::23<br>
+/home2/bitechnosys/incca.crm-doctor.com/includes/main/WebUI.php::preProcess::76<br>
+/home2/bitechnosys/incca.crm-doctor.com/includes/main/WebUI.php::triggerPreProcess::214<br>
+/home2/bitechnosys/incca.crm-doctor.com/index.php::process::22<br>
+Traced on 2024-03-19 11:06:08
+FileAccessForInclusion - 
+/home2/bitechnosys/incca.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/incca.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Vtiger/models/ListView.php::getInstanceById::306<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Users/models/ListView.php::getListViewEntries::102<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Users/views/List.php::getListViewEntries::122<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Settings/Vtiger/views/List.php::initializeListViewContents::23<br>
+/home2/bitechnosys/incca.crm-doctor.com/includes/main/WebUI.php::preProcess::76<br>
+/home2/bitechnosys/incca.crm-doctor.com/includes/main/WebUI.php::triggerPreProcess::214<br>
+/home2/bitechnosys/incca.crm-doctor.com/index.php::process::22<br>
+Traced on 2024-03-19 11:06:17
+FileAccessForInclusion - 
+/home2/bitechnosys/incca.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/incca.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Vtiger/models/ListView.php::getInstanceById::306<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Users/models/ListView.php::getListViewEntries::102<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Users/views/List.php::getListViewEntries::122<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Settings/Vtiger/views/List.php::initializeListViewContents::23<br>
+/home2/bitechnosys/incca.crm-doctor.com/includes/main/WebUI.php::preProcess::76<br>
+/home2/bitechnosys/incca.crm-doctor.com/includes/main/WebUI.php::triggerPreProcess::214<br>
+/home2/bitechnosys/incca.crm-doctor.com/index.php::process::22<br>
+Traced on 2024-03-19 11:07:03
+FileAccessForInclusion - 
+/home2/bitechnosys/incca.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/incca.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Vtiger/models/ListView.php::getInstanceById::306<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Users/models/ListView.php::getListViewEntries::102<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Users/views/List.php::getListViewEntries::122<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Settings/Vtiger/views/List.php::initializeListViewContents::23<br>
+/home2/bitechnosys/incca.crm-doctor.com/includes/main/WebUI.php::preProcess::76<br>
+/home2/bitechnosys/incca.crm-doctor.com/includes/main/WebUI.php::triggerPreProcess::214<br>
+/home2/bitechnosys/incca.crm-doctor.com/index.php::process::22<br>
+Traced on 2024-03-19 11:07:10
+FileAccessForInclusion - 
+/home2/bitechnosys/incca.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/incca.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Vtiger/models/ListView.php::getInstanceById::306<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Users/models/ListView.php::getListViewEntries::102<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Users/views/List.php::getListViewEntries::122<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Settings/Vtiger/views/List.php::initializeListViewContents::23<br>
+/home2/bitechnosys/incca.crm-doctor.com/includes/main/WebUI.php::preProcess::76<br>
+/home2/bitechnosys/incca.crm-doctor.com/includes/main/WebUI.php::triggerPreProcess::214<br>
+/home2/bitechnosys/incca.crm-doctor.com/index.php::process::22<br>
+Traced on 2024-03-19 11:07:25
+FileAccessForInclusion - 
+/home2/bitechnosys/incca.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/incca.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Vtiger/models/ListView.php::getInstanceById::306<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Users/models/ListView.php::getListViewEntries::102<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Users/views/List.php::getListViewEntries::122<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Settings/Vtiger/views/List.php::initializeListViewContents::23<br>
+/home2/bitechnosys/incca.crm-doctor.com/includes/main/WebUI.php::preProcess::76<br>
+/home2/bitechnosys/incca.crm-doctor.com/includes/main/WebUI.php::triggerPreProcess::214<br>
+/home2/bitechnosys/incca.crm-doctor.com/index.php::process::22<br>
+Traced on 2024-03-19 11:07:32
+FileAccessForInclusion - 
+/home2/bitechnosys/incca.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/incca.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Vtiger/models/ListView.php::getInstanceById::306<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Users/models/ListView.php::getListViewEntries::102<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Users/views/List.php::getListViewEntries::122<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Settings/Vtiger/views/List.php::initializeListViewContents::23<br>
+/home2/bitechnosys/incca.crm-doctor.com/includes/main/WebUI.php::preProcess::76<br>
+/home2/bitechnosys/incca.crm-doctor.com/includes/main/WebUI.php::triggerPreProcess::214<br>
+/home2/bitechnosys/incca.crm-doctor.com/index.php::process::22<br>
+Traced on 2024-03-19 11:08:00
+FileAccessForInclusion - 
+/home2/bitechnosys/incca.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/incca.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Vtiger/models/ListView.php::getInstanceById::306<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Users/models/ListView.php::getListViewEntries::102<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Users/views/List.php::getListViewEntries::122<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Settings/Vtiger/views/List.php::initializeListViewContents::23<br>
+/home2/bitechnosys/incca.crm-doctor.com/includes/main/WebUI.php::preProcess::76<br>
+/home2/bitechnosys/incca.crm-doctor.com/includes/main/WebUI.php::triggerPreProcess::214<br>
+/home2/bitechnosys/incca.crm-doctor.com/index.php::process::22<br>
+Traced on 2024-03-19 11:10:20
+FileAccessForInclusion - 
+/home2/bitechnosys/incca.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/incca.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Vtiger/models/ListView.php::getInstanceById::306<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Users/models/ListView.php::getListViewEntries::102<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Users/views/List.php::getListViewEntries::122<br>
+/home2/bitechnosys/incca.crm-doctor.com/modules/Settings/Vtiger/views/List.php::initializeListViewContents::23<br>
+/home2/bitechnosys/incca.crm-doctor.com/includes/main/WebUI.php::preProcess::76<br>
+/home2/bitechnosys/incca.crm-doctor.com/includes/main/WebUI.php::triggerPreProcess::214<br>
+/home2/bitechnosys/incca.crm-doctor.com/index.php::process::22<br>
+Traced on 2024-04-11 10:13:45
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::includeOnce::191<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/main/WebUI.php::vimport::15<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/index.php::include_once::19<br>
+Traced on 2024-04-11 10:13:45
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::includeOnce::191<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/main/WebUI.php::vimport::15<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/index.php::include_once::19<br>
+Traced on 2024-04-11 10:13:48
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::includeOnce::191<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/main/WebUI.php::vimport::15<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/index.php::include_once::19<br>
+Traced on 2024-04-11 10:13:49
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::includeOnce::191<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/main/WebUI.php::vimport::15<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/index.php::include_once::19<br>
+Traced on 2024-04-11 10:13:51
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::includeOnce::191<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/main/WebUI.php::vimport::15<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/index.php::include_once::19<br>
+Traced on 2024-04-11 10:13:52
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::includeOnce::191<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/main/WebUI.php::vimport::15<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/index.php::include_once::19<br>
+Traced on 2024-04-11 10:13:54
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::includeOnce::191<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/main/WebUI.php::vimport::15<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/index.php::include_once::19<br>
+Traced on 2024-04-11 10:13:57
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::includeOnce::191<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/main/WebUI.php::vimport::15<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/index.php::include_once::19<br>
+Traced on 2024-04-11 10:13:58
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::includeOnce::191<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/main/WebUI.php::vimport::15<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/index.php::include_once::19<br>
+Traced on 2024-04-11 10:14:01
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::includeOnce::191<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/main/WebUI.php::vimport::15<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/index.php::include_once::19<br>
+Traced on 2024-04-11 10:14:02
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::includeOnce::191<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/main/WebUI.php::vimport::15<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/index.php::include_once::19<br>
+Traced on 2024-04-11 10:14:11
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::includeOnce::191<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/main/WebUI.php::vimport::15<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/index.php::include_once::19<br>
+Traced on 2024-04-11 10:14:13
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::includeOnce::191<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/main/WebUI.php::vimport::15<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/index.php::include_once::19<br>
+Traced on 2024-04-11 10:14:41
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::includeOnce::191<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/main/WebUI.php::vimport::15<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/index.php::include_once::19<br>
+Traced on 2024-04-11 10:14:43
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::includeOnce::191<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/main/WebUI.php::vimport::15<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/index.php::include_once::19<br>
+Traced on 2024-04-11 10:14:49
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::includeOnce::191<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/main/WebUI.php::vimport::15<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/index.php::include_once::19<br>
+Traced on 2024-04-11 10:15:03
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::checkFileAccessForInclusion::65<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/Loader.php::includeOnce::191<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/main/WebUI.php::vimport::15<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/index.php::include_once::19<br>
+Traced on 2024-04-25 05:19:36
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/Utils.php::getInstance::214<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerCRMObjectMeta.php::vtws_getModuleInstance::42<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerModuleOperation.php::__construct::31<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerModuleOperation.php::getMetaInstance::19<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/Utils.php::__construct::462<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/QueryGenerator/QueryGenerator.php::vtws_getModuleHandlerFromName::96<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/QueryGenerator/QueryGenerator.php::getMeta::72<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/QueryGenerator/EnhancedQueryGenerator.php::__construct::16<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/ListView.php::__construct::430<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/views/List.php::getInstance::56<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/main/WebUI.php::preProcess::76<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/main/WebUI.php::triggerPreProcess::214<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/index.php::process::22<br>
+Traced on 2024-04-25 05:30:08
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::getInstance::1989<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Module.php::get_dependents_list::1700<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Project/models/Module.php::getRelationQuery::71<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Relation.php::getRelationQuery::123<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/RelationListView.php::getQuery::440<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/RelationListView.php::getRelationQuery::515<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/actions/RelatedRecordsAjax.php::getRelatedEntriesCount::64<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/runtime/Controller.php::getRelatedRecordsCount::64<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/actions/RelatedRecordsAjax.php::invokeExposedMethod::44<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/main/WebUI.php::process::215<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/index.php::process::22<br>
+Traced on 2024-04-25 05:30:14
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Module.php::getInstance::634<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/RelationListView.php::getRelatedListFields::258<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/views/RelatedList.php::getEntries::91<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/views/Detail.php::process::719<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/runtime/Controller.php::showRelatedList::64<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/views/Detail.php::invokeExposedMethod::355<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/main/WebUI.php::process::215<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/index.php::process::22<br>
+Traced on 2024-04-25 05:30:24
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Module.php::getInstance::634<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/RelationListView.php::getRelatedListFields::258<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/views/RelatedList.php::getEntries::91<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/views/Detail.php::process::719<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/runtime/Controller.php::showRelatedList::64<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/views/Detail.php::invokeExposedMethod::355<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/main/WebUI.php::process::215<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/index.php::process::22<br>
+Traced on 2024-04-25 05:30:29
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::getInstance::1989<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Module.php::get_dependents_list::1700<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Project/models/Module.php::getRelationQuery::71<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Relation.php::getRelationQuery::123<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/RelationListView.php::getQuery::440<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/RelationListView.php::getRelationQuery::515<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/actions/RelatedRecordsAjax.php::getRelatedEntriesCount::64<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/runtime/Controller.php::getRelatedRecordsCount::64<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/actions/RelatedRecordsAjax.php::invokeExposedMethod::44<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/main/WebUI.php::process::215<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/index.php::process::22<br>
+Traced on 2024-04-25 05:31:08
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::getInstance::1989<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Module.php::get_dependents_list::1700<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Project/models/Module.php::getRelationQuery::71<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Relation.php::getRelationQuery::123<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/RelationListView.php::getQuery::440<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/RelationListView.php::getRelationQuery::515<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/actions/RelatedRecordsAjax.php::getRelatedEntriesCount::64<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/runtime/Controller.php::getRelatedRecordsCount::64<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/actions/RelatedRecordsAjax.php::invokeExposedMethod::44<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/main/WebUI.php::process::215<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/index.php::process::22<br>
+Traced on 2024-04-25 05:31:26
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::getInstance::1989<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Module.php::get_dependents_list::1700<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Project/models/Module.php::getRelationQuery::71<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Relation.php::getRelationQuery::123<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/RelationListView.php::getQuery::440<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/RelationListView.php::getRelationQuery::515<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/actions/RelatedRecordsAjax.php::getRelatedEntriesCount::64<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/runtime/Controller.php::getRelatedRecordsCount::64<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/actions/RelatedRecordsAjax.php::invokeExposedMethod::44<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/main/WebUI.php::process::215<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/index.php::process::22<br>
+Traced on 2024-04-25 05:31:28
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/Utils.php::getInstance::214<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerCRMObjectMeta.php::vtws_getModuleInstance::42<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerModuleOperation.php::__construct::31<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerModuleOperation.php::getMetaInstance::19<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/Utils.php::__construct::462<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/QueryGenerator/QueryGenerator.php::vtws_getModuleHandlerFromName::96<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/QueryGenerator/QueryGenerator.php::getMeta::72<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/QueryGenerator/EnhancedQueryGenerator.php::__construct::16<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/ListView.php::__construct::430<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/views/List.php::getInstance::56<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/main/WebUI.php::preProcess::76<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/main/WebUI.php::triggerPreProcess::214<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/index.php::process::22<br>
+Traced on 2024-05-07 14:00:14
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Whatsapp/invoke_functions/Reminder_for_visit.php::getInstanceById::20<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEntityMethodManager.inc::Reminder_for_visit::35<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/tasks/VTEntityMethodTask.inc::executeMethod::19<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTWorkflowManager.inc::doTask::438<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEventHandler.inc::performTasks::114<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventTrigger.inc::handleEvent::143<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventsManager.inc::trigger::118<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::triggerEvent::1043<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Module.php::save::206<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Events/models/Module.php::saveRecord::29<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Record.php::saveRecord::259<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Calendar/models/Record.php::save::103<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Events/actions/Save.php::save::25<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Events/actions/SaveAjax.php::saveRecord::19<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/main/WebUI.php::process::215<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/index.php::process::22<br>
+Traced on 2024-05-07 14:00:49
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Whatsapp/invoke_functions/Reminder_for_visit.php::getInstanceById::20<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEntityMethodManager.inc::Reminder_for_visit::35<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/tasks/VTEntityMethodTask.inc::executeMethod::19<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTWorkflowManager.inc::doTask::438<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEventHandler.inc::performTasks::114<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventTrigger.inc::handleEvent::143<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventsManager.inc::trigger::118<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::triggerEvent::1043<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Module.php::save::206<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Events/models/Module.php::saveRecord::29<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Record.php::saveRecord::259<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Calendar/models/Record.php::save::103<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Events/actions/Save.php::save::25<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Events/actions/SaveAjax.php::saveRecord::19<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/main/WebUI.php::process::215<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/index.php::process::22<br>
+Traced on 2024-05-07 14:01:24
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Whatsapp/invoke_functions/Reminder_for_visit.php::getInstanceById::20<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEntityMethodManager.inc::Reminder_for_visit::35<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/tasks/VTEntityMethodTask.inc::executeMethod::19<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTWorkflowManager.inc::doTask::438<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEventHandler.inc::performTasks::114<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventTrigger.inc::handleEvent::143<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventsManager.inc::trigger::118<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::triggerEvent::1043<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Module.php::save::206<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Events/models/Module.php::saveRecord::29<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Record.php::saveRecord::259<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Calendar/models/Record.php::save::103<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Events/actions/Save.php::save::25<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Events/actions/SaveAjax.php::saveRecord::19<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/main/WebUI.php::process::215<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/index.php::process::22<br>
+Traced on 2024-05-09 05:48:53
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Whatsapp/invoke_functions/Reminder_for_visit.php::getInstanceById::20<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEntityMethodManager.inc::Reminder_for_visit::35<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/tasks/VTEntityMethodTask.inc::executeMethod::19<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTWorkflowManager.inc::doTask::438<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEventHandler.inc::performTasks::114<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventTrigger.inc::handleEvent::143<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventsManager.inc::trigger::118<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::triggerEvent::1043<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Module.php::save::206<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Events/models/Module.php::saveRecord::29<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Record.php::saveRecord::259<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Calendar/models/Record.php::save::103<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Events/actions/Save.php::save::25<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Events/actions/SaveAjax.php::saveRecord::19<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/main/WebUI.php::process::215<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/index.php::process::22<br>
+Traced on 2024-05-09 07:12:36
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Whatsapp/invoke_functions/Reminder_for_visit.php::getInstanceById::20<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEntityMethodManager.inc::Reminder_for_visit::35<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/tasks/VTEntityMethodTask.inc::executeMethod::19<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTWorkflowManager.inc::doTask::438<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEventHandler.inc::performTasks::114<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventTrigger.inc::handleEvent::143<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventsManager.inc::trigger::118<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::triggerEvent::1043<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Module.php::save::206<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Events/models/Module.php::saveRecord::29<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Record.php::saveRecord::259<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Calendar/models/Record.php::save::103<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Events/actions/Save.php::save::25<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Events/actions/SaveAjax.php::saveRecord::19<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/includes/main/WebUI.php::process::215<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/index.php::process::22<br>
+Traced on 2024-05-10 09:29:23
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/ModComments/ModCommentsHandler.php::getInstance::32<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventTrigger.inc::handleEvent::143<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventsManager.inc::trigger::118<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::triggerEvent::1043<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerCRMObject.php::save::128<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerModuleOperation.php::create::41<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/Create.php::create::83<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/SaveRecord.php::vtws_create::66<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/AddRecordComment.php::process::26<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.v1.php::process::159<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.php::process::62<br>
+Traced on 2024-05-25 09:34:41
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/crm/UploadAttachment.php::getInstance::45<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.v1.php::process::159<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.php::process::62<br>
+Traced on 2024-05-27 06:15:37
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Whatsapp/invoke_functions/Reminder_for_visit.php::getInstanceById::20<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEntityMethodManager.inc::Reminder_for_visit::35<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/tasks/VTEntityMethodTask.inc::executeMethod::19<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTWorkflowManager.inc::doTask::438<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEventHandler.inc::performTasks::114<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventTrigger.inc::handleEvent::143<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventsManager.inc::trigger::118<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::triggerEvent::1043<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerCRMObject.php::save::128<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerModuleOperation.php::create::41<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/Create.php::create::83<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/SaveRecord.php::vtws_create::66<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.v1.php::process::159<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.php::process::62<br>
+Traced on 2024-05-27 06:16:35
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Whatsapp/invoke_functions/Reminder_for_visit.php::getInstanceById::20<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEntityMethodManager.inc::Reminder_for_visit::35<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/tasks/VTEntityMethodTask.inc::executeMethod::19<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTWorkflowManager.inc::doTask::438<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEventHandler.inc::performTasks::114<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventTrigger.inc::handleEvent::143<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventsManager.inc::trigger::118<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::triggerEvent::1043<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerCRMObject.php::save::128<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerModuleOperation.php::create::41<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/Create.php::create::83<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/SaveRecord.php::vtws_create::66<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.v1.php::process::159<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.php::process::62<br>
+Traced on 2024-05-27 06:17:31
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Whatsapp/invoke_functions/Reminder_for_visit.php::getInstanceById::20<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEntityMethodManager.inc::Reminder_for_visit::35<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/tasks/VTEntityMethodTask.inc::executeMethod::19<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTWorkflowManager.inc::doTask::438<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEventHandler.inc::performTasks::114<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventTrigger.inc::handleEvent::143<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventsManager.inc::trigger::118<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::triggerEvent::1043<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerCRMObject.php::save::128<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerModuleOperation.php::create::41<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/Create.php::create::83<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/SaveRecord.php::vtws_create::66<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.v1.php::process::159<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.php::process::62<br>
+Traced on 2024-05-27 06:18:55
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Whatsapp/invoke_functions/Reminder_for_visit.php::getInstanceById::20<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEntityMethodManager.inc::Reminder_for_visit::35<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/tasks/VTEntityMethodTask.inc::executeMethod::19<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTWorkflowManager.inc::doTask::438<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEventHandler.inc::performTasks::114<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventTrigger.inc::handleEvent::143<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventsManager.inc::trigger::118<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::triggerEvent::1043<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerCRMObject.php::save::128<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerModuleOperation.php::create::41<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/Create.php::create::83<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/SaveRecord.php::vtws_create::66<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.v1.php::process::159<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.php::process::62<br>
+Traced on 2024-05-27 06:19:33
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Whatsapp/invoke_functions/Reminder_for_visit.php::getInstanceById::20<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEntityMethodManager.inc::Reminder_for_visit::35<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/tasks/VTEntityMethodTask.inc::executeMethod::19<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTWorkflowManager.inc::doTask::438<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEventHandler.inc::performTasks::114<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventTrigger.inc::handleEvent::143<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventsManager.inc::trigger::118<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::triggerEvent::1043<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerCRMObject.php::save::128<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerModuleOperation.php::create::41<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/Create.php::create::83<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/SaveRecord.php::vtws_create::66<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.v1.php::process::159<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.php::process::62<br>
+Traced on 2024-05-27 06:19:43
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Whatsapp/invoke_functions/Reminder_for_visit.php::getInstanceById::20<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEntityMethodManager.inc::Reminder_for_visit::35<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/tasks/VTEntityMethodTask.inc::executeMethod::19<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTWorkflowManager.inc::doTask::438<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEventHandler.inc::performTasks::114<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventTrigger.inc::handleEvent::143<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventsManager.inc::trigger::118<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::triggerEvent::1043<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerCRMObject.php::save::128<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerModuleOperation.php::create::41<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/Create.php::create::83<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/SaveRecord.php::vtws_create::66<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.v1.php::process::159<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.php::process::62<br>
+Traced on 2024-05-27 06:19:53
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Whatsapp/invoke_functions/Reminder_for_visit.php::getInstanceById::20<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEntityMethodManager.inc::Reminder_for_visit::35<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/tasks/VTEntityMethodTask.inc::executeMethod::19<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTWorkflowManager.inc::doTask::438<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEventHandler.inc::performTasks::114<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventTrigger.inc::handleEvent::143<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventsManager.inc::trigger::118<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::triggerEvent::1043<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerCRMObject.php::save::128<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerModuleOperation.php::create::41<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/Create.php::create::83<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/SaveRecord.php::vtws_create::66<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.v1.php::process::159<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.php::process::62<br>
+Traced on 2024-05-27 06:21:16
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Whatsapp/invoke_functions/Reminder_for_visit.php::getInstanceById::20<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEntityMethodManager.inc::Reminder_for_visit::35<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/tasks/VTEntityMethodTask.inc::executeMethod::19<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTWorkflowManager.inc::doTask::438<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEventHandler.inc::performTasks::114<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventTrigger.inc::handleEvent::143<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventsManager.inc::trigger::118<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::triggerEvent::1043<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerCRMObject.php::save::128<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerModuleOperation.php::create::41<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/Create.php::create::83<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/SaveRecord.php::vtws_create::66<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.v1.php::process::159<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.php::process::62<br>
+Traced on 2024-05-27 06:21:40
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Whatsapp/invoke_functions/Reminder_for_visit.php::getInstanceById::20<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEntityMethodManager.inc::Reminder_for_visit::35<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/tasks/VTEntityMethodTask.inc::executeMethod::19<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTWorkflowManager.inc::doTask::438<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEventHandler.inc::performTasks::114<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventTrigger.inc::handleEvent::143<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventsManager.inc::trigger::118<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::triggerEvent::1043<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerCRMObject.php::save::128<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerModuleOperation.php::create::41<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/Create.php::create::83<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/SaveRecord.php::vtws_create::66<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.v1.php::process::159<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.php::process::62<br>
+Traced on 2024-05-27 06:22:22
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Whatsapp/invoke_functions/Reminder_for_visit.php::getInstanceById::20<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEntityMethodManager.inc::Reminder_for_visit::35<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/tasks/VTEntityMethodTask.inc::executeMethod::19<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTWorkflowManager.inc::doTask::438<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEventHandler.inc::performTasks::114<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventTrigger.inc::handleEvent::143<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventsManager.inc::trigger::118<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::triggerEvent::1043<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerCRMObject.php::save::128<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerModuleOperation.php::create::41<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/Create.php::create::83<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/SaveRecord.php::vtws_create::66<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.v1.php::process::159<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.php::process::62<br>
+Traced on 2024-05-27 06:22:36
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Whatsapp/invoke_functions/Reminder_for_visit.php::getInstanceById::20<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEntityMethodManager.inc::Reminder_for_visit::35<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/tasks/VTEntityMethodTask.inc::executeMethod::19<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTWorkflowManager.inc::doTask::438<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEventHandler.inc::performTasks::114<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventTrigger.inc::handleEvent::143<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventsManager.inc::trigger::118<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::triggerEvent::1043<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerCRMObject.php::save::128<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerModuleOperation.php::create::41<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/Create.php::create::83<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/SaveRecord.php::vtws_create::66<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.v1.php::process::159<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.php::process::62<br>
+Traced on 2024-05-27 06:23:04
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Whatsapp/invoke_functions/Reminder_for_visit.php::getInstanceById::20<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEntityMethodManager.inc::Reminder_for_visit::35<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/tasks/VTEntityMethodTask.inc::executeMethod::19<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTWorkflowManager.inc::doTask::438<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEventHandler.inc::performTasks::114<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventTrigger.inc::handleEvent::143<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventsManager.inc::trigger::118<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::triggerEvent::1043<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerCRMObject.php::save::128<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerModuleOperation.php::create::41<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/Create.php::create::83<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/SaveRecord.php::vtws_create::66<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.v1.php::process::159<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.php::process::62<br>
+Traced on 2024-05-27 06:23:37
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Whatsapp/invoke_functions/Reminder_for_visit.php::getInstanceById::20<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEntityMethodManager.inc::Reminder_for_visit::35<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/tasks/VTEntityMethodTask.inc::executeMethod::19<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTWorkflowManager.inc::doTask::438<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEventHandler.inc::performTasks::114<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventTrigger.inc::handleEvent::143<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventsManager.inc::trigger::118<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::triggerEvent::1043<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerCRMObject.php::save::128<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerModuleOperation.php::create::41<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/Create.php::create::83<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/SaveRecord.php::vtws_create::66<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.v1.php::process::159<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.php::process::62<br>
+Traced on 2024-05-27 06:24:11
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Whatsapp/invoke_functions/Reminder_for_visit.php::getInstanceById::20<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEntityMethodManager.inc::Reminder_for_visit::35<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/tasks/VTEntityMethodTask.inc::executeMethod::19<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTWorkflowManager.inc::doTask::438<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEventHandler.inc::performTasks::114<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventTrigger.inc::handleEvent::143<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventsManager.inc::trigger::118<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::triggerEvent::1043<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerCRMObject.php::save::128<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerModuleOperation.php::create::41<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/Create.php::create::83<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/SaveRecord.php::vtws_create::66<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.v1.php::process::159<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.php::process::62<br>
+Traced on 2024-05-27 06:25:05
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Whatsapp/invoke_functions/Reminder_for_visit.php::getInstanceById::20<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEntityMethodManager.inc::Reminder_for_visit::35<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/tasks/VTEntityMethodTask.inc::executeMethod::19<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTWorkflowManager.inc::doTask::438<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEventHandler.inc::performTasks::114<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventTrigger.inc::handleEvent::143<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventsManager.inc::trigger::118<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::triggerEvent::1043<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerCRMObject.php::save::128<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerModuleOperation.php::create::41<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/Create.php::create::83<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/SaveRecord.php::vtws_create::66<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.v1.php::process::159<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.php::process::62<br>
+Traced on 2024-05-27 07:12:01
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Whatsapp/invoke_functions/Reminder_for_visit.php::getInstanceById::20<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEntityMethodManager.inc::Reminder_for_visit::35<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/tasks/VTEntityMethodTask.inc::executeMethod::19<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTWorkflowManager.inc::doTask::438<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEventHandler.inc::performTasks::114<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventTrigger.inc::handleEvent::143<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventsManager.inc::trigger::118<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::triggerEvent::1043<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerCRMObject.php::save::128<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerModuleOperation.php::create::41<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/Create.php::create::83<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/SaveRecord.php::vtws_create::66<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.v1.php::process::159<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.php::process::62<br>
+Traced on 2024-05-27 07:19:38
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Whatsapp/invoke_functions/Reminder_for_visit.php::getInstanceById::20<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEntityMethodManager.inc::Reminder_for_visit::35<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/tasks/VTEntityMethodTask.inc::executeMethod::19<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTWorkflowManager.inc::doTask::438<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEventHandler.inc::performTasks::114<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventTrigger.inc::handleEvent::143<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventsManager.inc::trigger::118<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::triggerEvent::1043<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerCRMObject.php::save::128<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerModuleOperation.php::create::41<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/Create.php::create::83<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/SaveRecord.php::vtws_create::66<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.v1.php::process::159<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.php::process::62<br>
+Traced on 2024-05-27 07:20:10
+FileAccessForInclusion - 
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/utils/CommonUtils.php::checkFileAccessForInclusion::392<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::checkFileAccessForInclusion::57<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Vtiger/models/Record.php::getInstance::300<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Whatsapp/invoke_functions/Reminder_for_visit.php::getInstanceById::20<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEntityMethodManager.inc::Reminder_for_visit::35<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/tasks/VTEntityMethodTask.inc::executeMethod::19<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTWorkflowManager.inc::doTask::438<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/com_vtiger_workflow/VTEventHandler.inc::performTasks::114<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventTrigger.inc::handleEvent::143<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/events/VTEventsManager.inc::trigger::118<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/data/CRMEntity.php::triggerEvent::1043<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerCRMObject.php::save::128<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/VtigerModuleOperation.php::create::41<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/include/Webservices/Create.php::create::83<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api/ws/SaveRecord.php::vtws_create::66<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.v1.php::process::159<br>
+/home2/bitechnosys/jd-grp.crm-doctor.com/modules/Mobile/v1/api.php::process::62<br>
